@@ -40,7 +40,6 @@ import com.android.settings.deviceinfo.UpTimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
-import com.android.settings.deviceinfo.UpdatePreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.EntityHeaderController;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -109,7 +108,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new SafetyInfoPreferenceController(context));
         controllers.add(new UpTimePreferenceController(context));
 	controllers.add(new SELinuxStatusPreferenceController(context));
-	controllers.add(new UpdatePreferenceController(context));
         return controllers;
     }
 
