@@ -127,15 +127,5 @@
          android:summary="@string/enable_oneui_summary"
          android:defaultValue="false" />
 
-    <PreferenceCategory
-        android:title="QS Blur">
-
-       <com.msm.xtended.preferences.SystemSettingSwitchPreference
-           android:key="qs_blur"
-           android:title="@string/qs_blur_alpha_title"
-           android:summary="@string/blur_quicksettings_subtitle"
-           android:defaultValue="true" />
-    </PreferenceCategory>
-
 </PreferenceScreen>
 
