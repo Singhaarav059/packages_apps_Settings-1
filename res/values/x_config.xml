@@ -33,7 +33,7 @@
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>
     <string name="config_batChargeCycle"></string>
-    <bool name="config_supportBatteryHealth">true</bool>
+    <bool name="config_supportBatteryHealth">false</bool>
 
     <!-- Ultra Power Saving -->
     <bool name="config_supportUltraPowerSaving">true</bool>
